@@ -31,7 +31,7 @@ ul > li {
     list-style: none;
 }
 li > a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     list-style: none;
     color: rgba(253,45,236,1);
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, cursive;
