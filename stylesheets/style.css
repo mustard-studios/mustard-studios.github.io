@@ -33,12 +33,12 @@ ul > li {
 li > a {
     font-size: 2rem;
     list-style: none;
-    color: #FB63AF;
+    color: rgba(253,45,236,1);
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, cursive;
 }
 li > a:hover {
     list-style: none;
-    color: #fb63af;
+    color: rgba(253,45,236,1);
 }
 
 
