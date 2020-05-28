@@ -31,7 +31,7 @@ ul > li {
     list-style: none;
 }
 li > a {
-    font-size: 1.5rem;
+    font-size: 2rem;
     list-style: none;
     color: rgba(253,45,236,1);
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, cursive;
@@ -40,5 +40,20 @@ li > a:hover {
     list-style: none;
     color: rgba(253,45,236,1);
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .great {
+        font-size: 5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+        background: -webkit-linear-gradient(322deg, rgba(34,193,195,1) 0%, rgba(253,45,236,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .collapse {
+        text-align: right;
+    }
 
+}
 
