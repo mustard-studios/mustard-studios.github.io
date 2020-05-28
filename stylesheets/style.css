@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(322deg, rgba(34,193,195,1) 0%, rgba(253,45,236,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main {
+    height: 100vh;
+}
+.brand {
+    padding-top: 13rem;
+    text-align: right;
+}
+.great {
+    font-size: 10rem;
+    font-family: 'Lobster', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link {
+    padding-top: 5px;
+    text-align: right;
+}
+ul > li {
+    list-style: none;
+}
+li > a {
+    font-size: 2rem;
+    list-style: none;
+    color: #FB63AF;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, cursive;
+}
+li > a:hover {
+    list-style: none;
+    color: #fb63af;
+}
+
+
