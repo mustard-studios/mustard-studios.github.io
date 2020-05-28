@@ -12,20 +12,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link href="/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
     <script src="https://kit.fontawesome.com/d934ae724a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
 <!-- Main body -->
-    <div class="container main">
-        <div class="row brand justify-content-md-left">
+    <button type="button" class="btn btn-outline" onclick="myFunction()" id="toggleMode">
+        <i class="fas fa-moon"></i>
+    </button>
+ 
+    <div class="container">
+        <div class="row brand">
             <div class="col">
                 <h1><span class="great">mustard</span> studios</h1>
             </div>
         </div>
         <div class="row link">
             <div class="col" id="home">
-                <button class="btn btn-outline" type="button" data-toggle="collapse" data-target="#homeCollapse" aria-expanded="false" aria-controls="collapseExample">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#homeCollapse" aria-expanded="false" aria-controls="collapseExample">
                     <h1>home</h1>
                 </button>
                 <div class="collapse" id="homeCollapse">
@@ -40,7 +46,7 @@
                 </div>
             </div>
             <div class="col" id="work">
-                <button class="btn btn-outline" type="button" data-toggle="collapse" data-target="#workCollapse" aria-expanded="false" aria-controls="collapseExample">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#workCollapse" aria-expanded="false" aria-controls="collapseExample">
                     <h1>work</h1>
                 </button>
                 <div class="collapse" id="workCollapse">
@@ -58,7 +64,7 @@
         </div>
         
         
-    </div>
+    </button>
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
