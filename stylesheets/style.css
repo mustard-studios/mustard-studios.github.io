@@ -62,12 +62,15 @@ li > a:hover {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    .brand, .link {
+        text-align: center;
+    }
     .great {
-        font-size: 4rem;
+        font-size: 3rem;
         font-family: 'Beth Ellen', 'Libre Barcode 39 Extended Text', sans-serif;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .collapse {
         text-align: right;
