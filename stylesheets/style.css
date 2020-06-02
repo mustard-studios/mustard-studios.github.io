@@ -15,6 +15,10 @@ body {
     background-color: #000;
 }
 
+#main {
+    padding-top: 10%;
+}
+
 .btn:focus, .btn:active {
     outline: none !important;
     box-shadow: none !important;
@@ -31,6 +35,10 @@ h1 {
     background: -webkit-linear-gradient(322deg, rgba(34,193,195,1) 0%, rgba(253,45,236,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#link-div {
+    min-height: 125px;
 }
 
 .great {
