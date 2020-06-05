@@ -76,24 +76,24 @@ li > a:hover {
     color: rgba(253,45,236,1);
 }
 
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .brand {
-        text-align: left;
+        text-align: center;
     }
     .row.link {
         text-align: right;
+        padding-right: 10px;
     }
     .great {
         font-size: 3rem;
-        font-family: 'Beth Ellen', 'Libre Barcode 39 Extended Text', sans-serif;
+        font-family: 'Libre Barcode 39 Extended Text', sans-serif;
     }
-    /* h1 {
-        font-size: 1.5rem;
-    } */
-    .collapse {
-        text-align: right;
+    h1 {
+        font-size: .8rem;
     }
+
 }
 @media screen and (prefers-color-scheme: light) {
     body {
