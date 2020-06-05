@@ -78,18 +78,21 @@ li > a:hover {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .brand, .link {
-        text-align: center;
+    .brand {
+        text-align: left;
+    }
+    .row.link {
+        text-align: right;
     }
     .great {
         font-size: 3rem;
         font-family: 'Beth Ellen', 'Libre Barcode 39 Extended Text', sans-serif;
     }
-    h1 {
+    /* h1 {
         font-size: 1.5rem;
-    }
+    } */
     .collapse {
-        text-align: center;
+        text-align: right;
     }
 }
 @media screen and (prefers-color-scheme: light) {
