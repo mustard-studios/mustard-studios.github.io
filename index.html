@@ -23,11 +23,13 @@
 </head>
 
 <body>
-
-    <!-- Main body -->
-    <button type="button" class="btn btn-outline" onclick="myFunction()" id="toggleMode">
-        <i class="fas fa-moon"></i>
-    </button>
+        <button type="button" class="btn btn-outline" onclick="myFunction()" id="toggleMode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button type="button" class="btn btn-outline" onclick="random_bg_color()" id="randomColor">
+            <i class="fas fa-random"></i>
+        </button>
+    
 
     <div class="container" id="main">
         <div class="row brand">
@@ -40,13 +42,13 @@
             <div class="col" id="home">
                 <button class="btn" type="button" data-toggle="collapse" data-target="#homeCollapse"
                     aria-expanded="false" aria-controls="collapseExample">
-                    <h1>home</h1>
+                    <h2><i class="fas fa-home"></i></h2>
                 </button>
             </div>
             <div class="col" id="work">
                 <button class="btn" type="button" data-toggle="collapse" data-target="#workCollapse"
                     aria-expanded="false" aria-controls="collapseExample">
-                    <h1>work</h1>
+                    <h2><i class="fas fa-building"></i></h2>
                 </button>
             </div>
         </div>
@@ -92,6 +94,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
+        <script>random_bg_color();
+        </script>
 </body>
 
 </html>
