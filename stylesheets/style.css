@@ -16,7 +16,7 @@ body {
 }
 
 #main {
-    padding-top: 10%;
+    padding-top: 11%;
 }
 
 .btn:focus, .btn:active {
@@ -83,7 +83,7 @@ li > a:hover {
         text-align: center;
     }
     .row.link {
-        text-align: center;
+        text-align: inherit;
     }
     h1 {
         font-family: 'Lobster', 'Beth Ellen', 'Pacifico', 'Roboto', cursive;
@@ -91,7 +91,7 @@ li > a:hover {
     .great {
         font-size: 3rem;
         font-style: normal;
-        font-family: 'Libre Barcode 39 Extended Text', sans-serif;
+        font-family: 'Libre Barcode 39 Extended Text', "Lobster", "Roboto", Arial, Helvetica, sans-serif;
     }
 
 }
