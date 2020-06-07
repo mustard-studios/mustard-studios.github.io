@@ -86,7 +86,7 @@ li > a:hover {
         text-align: center;
     }
     h1 {
-        font-family: 'Lobster';
+        font-family: 'Lobster', 'Beth Ellen', 'Pacifico', 'Roboto', cursive;
     }
     .great {
         font-size: 3rem;
