@@ -88,7 +88,7 @@ li > a:hover {
 @media only screen and (max-width: 767px) {
     
     .great {
-        font-size: 3rem;
+        font-size: 4rem;
         font-family: 'Libre Barcode 39 Extended Text', "Roboto", Arial, Helvetica, sans-serif;
     }
 
