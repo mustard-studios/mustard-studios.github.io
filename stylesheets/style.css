@@ -85,27 +85,13 @@ li > a:hover {
 
 /* For mobile phones */
 @media only screen and (max-width: 767px) {
-<<<<<<< HEAD
-    ul > li > a > i {
-        font-size: 1.5rem;
-=======
-    /* For mobile phones: */
-    .brand {
-        text-align: center;
-    }
-    .row.link {
-        text-align: inherit;
-    }
-    h1 {
-        font-family: 'Lobster', 'Beth Ellen', 'Pacifico', 'Roboto', cursive;
->>>>>>> 31b9f6e0c9d5ce7be41c99a0a1e94c174d3ea67e
-    }
+    
     .great {
         font-size: 3rem;
         font-family: 'Libre Barcode 39 Extended Text', "Roboto", Arial, Helvetica, sans-serif;
     }
 
-}
+
 @media screen and (prefers-color-scheme: light) {
     body {
       background-color: rgb(255, 255, 255);
@@ -123,3 +109,4 @@ li > a:hover {
         color: #383838;
     }
   }
+}
