@@ -33,16 +33,17 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.collapse {
+/* .collapse {
     padding-right: 35px;
-}
+} */
 
 .row.link {
     margin-top: 3rem;
 }
 
-.row.link-2 {
+.col.link-2 {
     min-height: 125px;
+    padding-right: 3.33rem;
 }
 
 ul > li {
