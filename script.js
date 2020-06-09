@@ -19,5 +19,5 @@ function mailTo() {
 };
 
 function myResume() {
-    window.open('https://github.com/mustard-studios/mustard-studios.github.io/blob/master/documents/jMustardResume.pdf', '_blank');
+    window.open('https://github.com/mustard-studios/mustard-studios.github.io/blob/master/assets/documents/jMustardResume.pdf', '_blank');
 }

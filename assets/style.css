@@ -25,16 +25,13 @@ body {
 }
 
 .great {
+    font-size: 2em;
     margin: 0 auto;
     font-family: 'Libre Barcode 39 Extended Text', 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: -webkit-linear-gradient(322deg, rgba(34,193,195,1) 0%, rgba(253,45,236,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-/* .collapse {
-    padding-right: 35px;
-} */
 
 .row.link {
     margin-top: 3rem;
@@ -97,7 +94,7 @@ li > a:hover {
     color: rgb(233, 233, 233);
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:992px) {
     body {
         display: flex;
         font-family: 'Roboto', sans-serif;
@@ -116,6 +113,12 @@ li > a:hover {
     h2 {
         font-size: 3rem;
 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .great {
+        font-size: 1.5em;
     }
 }
 
