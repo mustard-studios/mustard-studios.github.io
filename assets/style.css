@@ -52,6 +52,11 @@ ul > li > a  {
     color: rgba(253,45,236,0.5);
 }
 
+ul > li > a > i {
+    text-align: center;
+    margin-right: 40px;
+}
+
 li > a:hover {
     list-style: none;
     color: rgba(253,45,236,1);
