@@ -81,6 +81,22 @@ li > a:hover {
     color: rgb(223, 223, 223);
 }
 
+#mailTo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    color: rgb(223, 223, 223)
+}
+
+#resume {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+    color: rgb(233, 233, 233);
+}
+
 @media only screen and (min-width:768px) {
     body {
         display: flex;
@@ -99,6 +115,7 @@ li > a:hover {
     }
     h2 {
         font-size: 3rem;
+
     }
 }
 

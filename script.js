@@ -15,3 +15,7 @@ function myFunction() {
     element.removeAttribute('style');
     element.classList.toggle('dark');
 };
+
+function mailTo() {
+    window.location.href = "mailto:jason@mstrd-studios.com";
+};
