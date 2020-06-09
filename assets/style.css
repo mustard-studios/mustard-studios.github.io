@@ -88,7 +88,7 @@ div > button > i  {
         display: flex;
         font-family: 'Roboto', sans-serif;
         height: 100vh;
-        text-align: right;
+        text-align: center;
         justify-content: center;
         align-items: center;
     }
