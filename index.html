@@ -23,20 +23,25 @@
 </head>
 
 <body>
-        <button type="button" class="btn btn-outline" onclick="myFunction()" id="toggleMode">
+    <!-- Icon button group -->
+    <div id="colorMode">
+        <button type="button" class="btn btn-outline" onclick="myFunction()">
             <i class="fas fa-moon"></i>
         </button>
-        <button type="button" class="btn btn-outline" onclick="random_bg_color()" id="randomColor">
+        <button type="button" class="btn btn-outline" onclick="random_bg_color()">
             <i class="fas fa-random"></i>
         </button>
-        <button type="button" class="btn btn-outline" onclick="mailTo()" id="mailTo">
+    </div>
+    <div id="reference">
+        <button type="button" class="btn btn-outline" onclick="mailTo()">
             <i class="fas fa-envelope"></i>
         </button>
-        <button type="button" class="btn btn-outline" onclick="myResume()" id="resume">
+        <button type="button" class="btn btn-outline" onclick="myResume()">
             <i class="fas fa-file"></i>
         </button>
-    
+    </div>
 
+    <!-- Main Body -->
     <div class="container" id="main">
         <div class="row brand">
             <div class="col">
@@ -68,8 +73,8 @@
                                     class="fab fa-instagram"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.soundcloud.com/thecolonelmustard"  rel="noopener noreferrer" target="_blank"><i
-                                    class="fab fa-soundcloud"></i></a>
+                            <a href="https://www.soundcloud.com/thecolonelmustard" rel="noopener noreferrer"
+                                target="_blank"><i class="fab fa-soundcloud"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -78,11 +83,12 @@
                 <div class="collapse" id="workCollapse">
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/in/jasonmustard"  rel="noopener noreferrer" target="_blank"><i
-                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/jasonmustard" rel="noopener noreferrer"
+                                target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.github.com/mustardbt"  rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.github.com/mustardbt" rel="noopener noreferrer" target="_blank"><i
+                                    class="fab fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -100,8 +106,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
-        <script>random_bg_color();
-        </script>
+
+
+        <script>random_bg_color();</script>
 </body>
 
 </html>

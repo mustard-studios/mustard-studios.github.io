@@ -62,37 +62,26 @@ li > a:hover {
     background-color: #000;
 }
 
-#toggleMode {
+#colorMode {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 5px;
+    margin: 2px;
     color: rgb(223, 223, 223);
 }
 
-#randomColor{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 5px;
-    color: rgb(223, 223, 223);
-}
-
-#mailTo {
+#reference {
     position: absolute;
     top: 0;
     left: 0;
-    margin: 5px;
+    margin: 2px;
     color: rgb(223, 223, 223)
 }
 
-#resume {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 5px;
-    color: rgb(233, 233, 233);
+div > button > i  {
+    color: rgb(233, 233, 233)
 }
+
 
 @media only screen and (min-width:992px) {
     body {
