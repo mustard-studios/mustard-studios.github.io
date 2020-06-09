@@ -1,6 +1,5 @@
 function random_bg_color() {
     var body = document.body;
-    var brand = body.getElementsByTagName('h1');
     var x = Math.floor(Math.random() * 256);
     var y = Math.floor(Math.random() * 256);
     var z = Math.floor(Math.random() * 256);
@@ -11,7 +10,6 @@ function random_bg_color() {
 
 function myFunction() {
     var element = document.body;
-    var writing = element.getElementsByTagName('i');
     element.removeAttribute('style');
     element.classList.toggle('dark');
 };
@@ -19,3 +17,7 @@ function myFunction() {
 function mailTo() {
     window.location.href = "mailto:jason@mstrd-studios.com";
 };
+
+function myResume() {
+    window.open('https://github.com/mustard-studios/mustard-studios.github.io/blob/master/documents/jMustardResume.pdf', '_blank');
+}
