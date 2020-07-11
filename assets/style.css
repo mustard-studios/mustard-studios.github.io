@@ -91,7 +91,7 @@ li > a:hover {
     top: 0;
     right: 0;
     margin: 2px;
-    color: rgb(223, 223, 223);
+    color: rgb(223, 223, 223, 0.6);
 }
 
 #reference {
@@ -99,11 +99,11 @@ li > a:hover {
     top: 0;
     left: 0;
     margin: 2px;
-    color: rgb(223, 223, 223)
+    color: rgb(223, 223, 223, 0.6)
 }
 
 div > button > i  {
-    color: rgb(233, 233, 233)
+    color: rgb(233, 233, 233, 0.6)
 }
 
 
