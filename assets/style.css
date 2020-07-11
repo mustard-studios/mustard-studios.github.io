@@ -116,6 +116,9 @@ div > button > i  {
         justify-content: center;
         align-items: center;
     }
+    .card {
+        margin: auto;
+    }
     .great {
         font-size: 3em;
     }
@@ -125,7 +128,6 @@ div > button > i  {
     }
     h2 {
         font-size: 3rem;
-
     }
 }
 
