@@ -42,7 +42,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: rgba(233, 233, 233, 0.7);
+    color: rgb(223, 223, 223, 0.7);
     background: rgba(0, 0, 0, 0.060);
     -webkit-box-shadow: 5px 5px 4px -2px #000000; 
     box-shadow: 5px 5px 4px -2px #000000;  
