@@ -131,7 +131,7 @@ div > button > i  {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .great {
         font-size: 2.5em;
     }
