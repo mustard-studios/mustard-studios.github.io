@@ -25,8 +25,8 @@ body {
 }
 
 .great {
-    font-size: 2.3em;
     font-family: 'Libre barcode 39 extended text';
+    font-size: 1.5rem;
     margin: 0 auto 5px auto;
     color: rgba(253,45,236,0.7);
     background: -webkit-linear-gradient(322deg, rgba(34,193,195,1) 0%, rgba(253,45,236,1) 100%);
@@ -38,7 +38,7 @@ body {
 .card {
     max-width: 650px;
     min-height: 200px;
-    margin: auto;
+    margin: auto 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -131,8 +131,9 @@ div > button > i  {
 
 @media only screen and (max-width: 768px) {
     .great {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
+
 }
 
 @media screen and (prefers-color-scheme: light) {
