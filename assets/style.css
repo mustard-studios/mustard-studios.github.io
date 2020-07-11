@@ -25,12 +25,31 @@ body {
 }
 
 .great {
-    font-size: 2em;
-    margin: 0 auto;
-    font-family: 'Libre Barcode 39 Extended Text', 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.3em;
+    font-family: 'Libre barcode 39 extended text';
+    margin: 0 auto 5px auto;
+    color: rgba(253,45,236,0.7);
     background: -webkit-linear-gradient(322deg, rgba(34,193,195,1) 0%, rgba(253,45,236,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+}
+
+.card {
+    max-width: 650px;
+    min-height: 200px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgba(233, 233, 233, 0.7);
+    background: rgba(0, 0, 0, 0.060);
+    -webkit-box-shadow: 5px 5px 4px -2px #000000; 
+    box-shadow: 5px 5px 4px -2px #000000;  
+}
+
+.card > .title {
+    font-size: 1.5rem;
 }
 
 .row.link {
