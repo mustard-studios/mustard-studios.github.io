@@ -1,157 +1,180 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#wrapper {
+  background-image: url("https://source.unsplash.com/random/");
+  background-size: cover;
+  height: 90vh;
+  width: 90%;
 }
 
 #main {
-    padding-top: 11%;
+  padding-top: 11%;
 }
 
-.btn:focus, .btn:active {
-    outline: none !important;
-    box-shadow: none !important;
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-  h2 > i {
-    color: rgba(253,45,236,0.7);
+h2 > i {
+  color: rgba(253, 45, 236, 0.7);
 }
 
 .great {
-    font-family: 'Libre barcode 39 extended text';
-    font-size: 1.5rem;
-    margin: 0 auto 5px auto;
-    color: rgba(253,45,236,0.7);
-    background: -webkit-linear-gradient(322deg, rgba(34,193,195,1) 0%, rgba(253,45,236,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+  font-family: "Libre barcode 39 extended text";
+  font-size: 1.5rem;
+  margin: 0 auto 5px auto;
+  /* color: rgba(253, 45, 236, 0.7); */
+  background: -webkit-linear-gradient(
+    322deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 45, 236, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card {
-    max-width: 650px;
-    min-height: 200px;
-    margin: auto 10px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: rgb(223, 223, 223, 0.7);
-    background: rgba(0, 0, 0, 0.060);
-    -webkit-box-shadow: 5px 5px 4px -2px #000000; 
-    box-shadow: 5px 5px 4px -2px #000000;  
+  border-radius: 5px;
+  border: 3px solid rgba(0, 0, 0, 0.15);
+  max-width: 650px;
+  min-height: 200px;
+  margin: auto 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgba(206, 205, 205, 0.85);
+  -webkit-box-shadow: 0px 0px 23px 13px rgb(255, 255, 255);
+  box-shadow: 0px 0px 23px 13px rgba(0, 0, 0, 0.2);
 }
 
 .card > .title {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .row.link {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .col.link-2 {
-    min-height: 125px;
-    padding-right: 3.33rem;
+  min-height: 125px;
+  padding-right: 3.33rem;
 }
 
 ul > li {
-    list-style: none;
+  list-style: none;
 }
 
-ul > li > a  {
-    font-size: 2rem;
-    list-style: none;
-    color: rgba(253,45,236,0.5);
+ul > li > a {
+  font-size: 2rem;
+  list-style: none;
+  color: rgba(253, 45, 236, 0.5);
 }
 
 ul > li > a > i {
-    text-align: center;
-    margin-right: 40px;
+  text-align: center;
+  margin-right: 40px;
 }
 
 li > a:hover {
-    list-style: none;
-    color: rgba(253,45,236,1);
+  list-style: none;
+  color: rgba(253, 45, 236, 1);
 }
 
 /* Dark/Light Mode code */
 .dark {
-    background-color: #000;
+  background-color: #000;
 }
 
 #colorMode {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 2px;
-    color: rgb(223, 223, 223, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2px;
+  color: rgb(223, 223, 223, 0.6);
 }
 
 #reference {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 2px;
-    color: rgb(223, 223, 223, 0.6)
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 2px;
+  color: rgb(223, 223, 223, 0.6);
 }
 
-div > button > i  {
-    color: rgb(233, 233, 233, 0.6)
+div > button > i {
+  color: rgb(233, 233, 233, 0.6);
 }
 
-
-@media only screen and (min-width:992px) {
-    body {
-        display: flex;
-        font-family: 'Roboto', sans-serif;
-        height: 100vh;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    .card {
-        margin: auto;
-    }
-    .great {
-        font-size: 3em;
-    }
-    .col.link-2 {
-        padding: 0 40px;
-        margin: 0 auto;
-    }
-    h2 {
-        font-size: 3rem;
-    }
+@media only screen and (min-width: 992px) {
+  body {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin: auto;
+  }
+  .great {
+    font-size: 3em;
+  }
+  .col.link-2 {
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-    .great {
-        font-size: 2.5em;
-    }
-
+  .great {
+    font-size: 2.5em;
+  }
+  #wrapper {
+    width: 75%;
+  }
 }
 
 @media screen and (prefers-color-scheme: light) {
-    body {
-      background-color: rgb(255, 255, 255);
-    }
-    .btn-outline{
-        color: rgb(255,255,255);
-    }
+  body {
+    color: black;
+    background-color: rgb(255, 255, 255);
   }
+  .btn-outline {
+    color: rgb(255, 255, 255);
+  }
+  .card {
+    border: 3px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 23px 13px rgba(255, 255, 255, 0.31);
+  }
+}
 
-  @media screen and (prefers-color-scheme: dark) {
-    body {
-      background-color: #383838;
-    }
-    .btn-outline {
-        color: #383838;
-    }
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: #383838;
   }
+  .btn-outline {
+    color: #383838;
+  }
+  .card {
+    box-shadow: 0px 0px 23px 13px rgba(255, 255, 255, 0.829);
+    background-color: rgb(0, 0, 0);
+  }
+}
