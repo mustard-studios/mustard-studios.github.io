@@ -14,9 +14,9 @@ body {
 
 #wrapper {
     border-radius: 5px;
-  background-image: url("https://source.unsplash.com/user/mustard81/1600x900");
+  background-image: url("https://source.unsplash.com/user/mustard81/");
   height: 90vh;
-  /* width: 75vw; */
+  width: 75vw;
 }
 
 #main {
@@ -143,6 +143,9 @@ div > button > i {
   h2 {
     font-size: 3rem;
   }
+  #wrapper {
+      max-height: 75vh;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -150,7 +153,8 @@ div > button > i {
     font-size: 2.5em;
   }
   #wrapper {
-    width: 75%;
+      width:100vw;
+      height:100%;
   }
 }
 
