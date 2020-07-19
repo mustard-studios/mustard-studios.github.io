@@ -14,9 +14,9 @@ body {
 
 #wrapper {
     border-radius: 5px;
-  background-image: url("https://source.unsplash.com/user/mustard81/");
-  height: 90vh;
-  width: 75vw;
+    background-image: url("https://source.unsplash.com/user/mustard81/");
+    height: 100%;
+    width: 100%;
 }
 
 #main {
@@ -121,6 +121,8 @@ div > button > i {
   color: rgb(233, 233, 233, 0.6);
 }
 
+/* Responsive query */
+/* Large Screens */
 @media only screen and (min-width: 992px) {
   body {
     display: flex;
@@ -144,18 +146,30 @@ div > button > i {
     font-size: 3rem;
   }
   #wrapper {
-      max-height: 75vh;
+      height: 70vh;
+      max-width: 90vw;
+      object-fit: scale-down;
+  }
+}
+/* Medium Screens */
+@media only screen and (max-width: 991px) {
+  .great {
+    font-size: 2em;
+  }
+  #wrapper {
+      max-height: 800px;
+      max-width: 400px;
+      object-fit: scale-down;
+
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .great {
-    font-size: 2.5em;
-  }
-  #wrapper {
-      width:100vw;
-      height:100%;
-  }
+/* Small Screens */
+@media only screen and (max-width: 400px) {
+    #wrapper{ 
+    height: 100vh;
+    width: 100vw;
+    }
 }
 
 @media screen and (prefers-color-scheme: light) {
