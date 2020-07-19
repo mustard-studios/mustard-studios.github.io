@@ -13,10 +13,10 @@ body {
 }
 
 #wrapper {
-  background-image: url("https://source.unsplash.com/random/");
-  background-size: cover;
+    border-radius: 5px;
+  background-image: url("https://source.unsplash.com/user/mustard81/1600x900");
   height: 90vh;
-  width: 90%;
+  /* width: 75vw; */
 }
 
 #main {
@@ -49,14 +49,16 @@ h2 > i {
 
 .card {
   border-radius: 5px;
-  border: 3px solid rgba(0, 0, 0, 0.15);
+  border: 3px solid rgba(0, 0, 0, 0.8);
   max-width: 650px;
   min-height: 200px;
   margin: auto 10px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: rgba(206, 205, 205, 0.85);
+  /* color: rgba(253, 45, 236, 0.5); */
+  color: rgb(223, 223, 223, 0.8);
+
   -webkit-box-shadow: 0px 0px 23px 13px rgb(255, 255, 255);
   box-shadow: 0px 0px 23px 13px rgba(0, 0, 0, 0.2);
 }

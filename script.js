@@ -10,9 +10,12 @@ function random_bg_color() {
 
 };
 
-function requestImage() {
+function randomImage() {
+    var element = document.getElementById('wrapper');
+    element.style.backgroundImage = 'url("https://source.unsplash.com/user/mustard81")';
+    event.preventDefault();
     window.location.reload(true);
-    // return false;
+    
 }
 
 
