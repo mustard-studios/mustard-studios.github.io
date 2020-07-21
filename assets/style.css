@@ -13,10 +13,8 @@ body {
 }
 
 #wrapper {
-    border-radius: 5px;
-    background-image: url("https://source.unsplash.com/user/mustard81/");
-    height: 100%;
-    width: 100%;
+    background: url("https://source.unsplash.com/user/mustard81/375x815");
+    height: 100%;  
 }
 
 #main {
@@ -36,7 +34,7 @@ h2 > i {
 .great {
   font-family: "Libre barcode 39 extended text";
   font-size: 1.5rem;
-  margin: 0 auto 5px auto;
+  margin: 5px auto;
   /* color: rgba(253, 45, 236, 0.7); */
   background: -webkit-linear-gradient(
     322deg,
@@ -122,55 +120,59 @@ div > button > i {
 }
 
 /* Responsive query */
-/* Large Screens */
-@media only screen and (min-width: 992px) {
-  body {
-    display: flex;
-    font-family: "Roboto", sans-serif;
+/* Small Screens */
+@media only screen and (min-width: 576px) {
+    #wrapper{ 
     height: 100vh;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .card {
-    margin: auto;
-  }
-  .great {
-    font-size: 3em;
-  }
-  .col.link-2 {
-    padding: 0 40px;
-    margin: 0 auto;
-  }
-  h2 {
-    font-size: 3rem;
-  }
-  #wrapper {
-      height: 70vh;
-      max-width: 90vw;
-      object-fit: scale-down;
-  }
+    width: 80%;
+    }
 }
 /* Medium Screens */
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) {
   .great {
     font-size: 2em;
   }
   #wrapper {
-      max-height: 800px;
-      max-width: 400px;
-      object-fit: scale-down;
-
+    background: url("https://source.unsplash.com/user/mustard81/768x1025");
+    height: 80vh;
   }
 }
-
-/* Small Screens */
-@media only screen and (max-width: 400px) {
-    #wrapper{ 
-    height: 100vh;
-    width: 100vw;
+/* Large Screens */
+@media only screen and (min-width: 992px) {
+    body {
+      display: flex;
+      font-family: "Roboto", sans-serif;
+      height: 100vh;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      margin: auto;
+    }
+    .great {
+      font-size: 3em;
+    }
+    .col.link-2 {
+      padding: 0 40px;
+      margin: 0 auto;
+    }
+    h2 {
+        font-size: 3rem;
+      }
+      #wrapper {
+          background: url("https://source.unsplash.com/user/mustard81/820x1092");
+          height: 80vh;
+      }
+  }
+  @media only screen and (min-width: 1200px) {
+    #wrapper {
+        background: url("https://source.unsplash.com/user/mustard81/1092x820");
     }
 }
+
+
+
 
 @media screen and (prefers-color-scheme: light) {
   body {
