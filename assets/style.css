@@ -13,8 +13,8 @@ body {
 }
 
 #wrapper {
-    background: url("https://source.unsplash.com/user/mustard81/375x815");
-    height: 100%;  
+    background: url("https://source.unsplash.com/user/mustard81/415x815");
+    min-height: 100vh;  
 }
 
 #main {
