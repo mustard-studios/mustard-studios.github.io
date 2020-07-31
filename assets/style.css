@@ -4,7 +4,7 @@
 
 body {
   display: flex;
-  font-family: "Roboto", sans-serif;
+  font-family:"Raleway", "Lato", sans-serif;
   height: 100vh;
   text-align: center;
   justify-content: center;
@@ -33,17 +33,10 @@ h2 > i {
 }
 
 .great {
-  font-family: "Libre barcode 39 extended text";
-  font-size: 1.5rem;
+  font-family: "Lato";
+  font-size: 36px;
   margin: 5px auto;
-  /* color: rgba(253, 45, 236, 0.7); */
-  background: -webkit-linear-gradient(
-    322deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 45, 236, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgba(223, 223, 223, 1)
 }
 
 .card {
@@ -51,7 +44,7 @@ h2 > i {
   border: 3px solid rgba(0, 0, 0, 0.8);
   max-width: 650px;
   min-height: 200px;
-  margin: auto 10px;
+  margin: auto 5px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -67,12 +60,11 @@ h2 > i {
 }
 
 .row.link {
-  margin-top: 3rem;
+  margin-top: 2em;
 }
 
 .col.link-2 {
   min-height: 125px;
-  padding-right: 3.33rem;
 }
 
 ul > li {
@@ -100,19 +92,19 @@ li > a:hover {
   background-color: #000;
 }
 
-#colorMode {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 2px;
-  color: rgb(223, 223, 223, 0.6);
-}
-
 #reference {
   position: absolute;
   bottom: 0;
+  left: 0;
+  margin: 5px;
+  color: rgb(223, 223, 223, 0.6);
+}
+
+#colorMode {
+  position: absolute;
+  bottom: 0;
   right: 0;
-  margin: 2px;
+  margin: 5px 2px;
   color: rgb(223, 223, 223, 0.6);
 }
 
@@ -127,18 +119,33 @@ div > button > i {
     #wrapper{ 
     background: url("https://source.unsplash.com/user/mustard81/580x1025");
     }
+
 }
+
 /* Medium Screens */
 @media only screen and (min-width: 768px) {
   .great {
-    font-size: 2em;
+    font-family: "Libre barcode 39 extended text";
+    font-size: 3em;
+    color: rgba(253, 45, 236, 0.7);
+    background: -webkit-linear-gradient(
+      322deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 45, 236, 1) 100%
+    ); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
   }
   #wrapper {
     background: url("https://source.unsplash.com/user/mustard81/768x1025");
-    height: 80vh;
+    height: 90vh;
     border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, .30);
+    border: 2px solid rgba(233, 233, 233, .30);
   }
+
 }
 /* Large Screens */
 @media only screen and (min-width: 992px) {
@@ -165,7 +172,7 @@ div > button > i {
     }
     #wrapper {
         background: url("https://source.unsplash.com/user/mustard81/820x1092");
-        height: 80vh;
+        height: 90vh;
     }
   }
   @media only screen and (min-width: 1200px) {
