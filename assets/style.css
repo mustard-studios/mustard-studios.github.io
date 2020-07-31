@@ -14,9 +14,8 @@ body {
 
 #wrapper {
     background: url("https://source.unsplash.com/user/mustard81/580x815");
-    height: 100%; 
-    border: 3px solid rgba(0, 0, 0, 0.4); 
-    border-radius: 50px;
+    height: inherit;
+    width: 100vw; 
 }
 
 #main {
@@ -103,16 +102,16 @@ li > a:hover {
 
 #colorMode {
   position: absolute;
-  top: 0;
-  right: 0;
+  bottom: 0;
+  left: 0;
   margin: 2px;
   color: rgb(223, 223, 223, 0.6);
 }
 
 #reference {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 0;
+  right: 0;
   margin: 2px;
   color: rgb(223, 223, 223, 0.6);
 }
@@ -121,13 +120,12 @@ div > button > i {
   color: rgb(233, 233, 233, 0.6);
 }
 
-/* Responsive query */
+/* Responsive queries ----------------------------------*/
+
 /* Small Screens */
 @media only screen and (min-width: 576px) {
     #wrapper{ 
     background: url("https://source.unsplash.com/user/mustard81/580x1025");
-    height: 100%;
-    width: 100%;
     }
 }
 /* Medium Screens */
@@ -138,6 +136,8 @@ div > button > i {
   #wrapper {
     background: url("https://source.unsplash.com/user/mustard81/768x1025");
     height: 80vh;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, .30);
   }
 }
 /* Large Screens */
@@ -162,11 +162,11 @@ div > button > i {
     }
     h2 {
         font-size: 3rem;
-      }
-      #wrapper {
-          background: url("https://source.unsplash.com/user/mustard81/820x1092");
-          height: 80vh;
-      }
+    }
+    #wrapper {
+        background: url("https://source.unsplash.com/user/mustard81/820x1092");
+        height: 80vh;
+    }
   }
   @media only screen and (min-width: 1200px) {
     #wrapper {
