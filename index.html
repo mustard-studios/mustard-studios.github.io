@@ -9,56 +9,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bellota&family=Beth+Ellen&family=Libre+Barcode+39+Extended+Text&display=swap"
-        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Playfair+Display&family=Roboto&display=swap"
-        rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Raleway&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Raleway&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/style.css">
     <link href="/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-    <script type="text/javascript" src="script.js"></script>
     <script src="https://kit.fontawesome.com/d934ae724a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container" id="wrapper">
-        <!-- Icon button group -->
-        
+    <div class="container" id="wrapper">        
 
-        <!-- Main Body -->
-        <div class="container" id="main">
-            <div class="row brand">
-                <div class="col card" id="card">
-                    <!-- <h1><span class="great">mustard</span></h1> -->
-                    <h1 class="great">Jason Mustard</h1>
-                    <h5 class="title">Web Developer</h6>
-                        <p><b>For Money: </b>JavaScript | Angular | React | Express | Node</p>
-                        <p><b>For Fun: </b>JAMStack | Rails | Photos | Tunes | Food</p>
-                        <hr>
-                    <div id="colorMode">
-                        <button type="button" class="btn btn-outline" onclick="mailTo()">
-                            <i class="fas fa-envelope"></i>
-                        </button>
-                        <button type="button" class="btn btn-outline" onclick="myResume()">
-                            <i class="fas fa-file"></i>
-                        </button>
+        <!-- Main Card -->
+        <!-- <div class="container" id="main"> -->
+            <div class="card" id="mydiv">
+                <h1 class="great" id="draggable">JASON MUSTARD</h1>
+                <h5 class="title">Web Developer</h6>
+                    <p><b>For Money: </b>JavaScript | Angular | React | Express | Node</p>
+                    <p><b>For Fun: </b>JAMStack | Rails | Photos | Tunes | Food</p>
+                    <!-- <hr> -->
+
+
+                <!-- Social links -->
+                <div class='row' id="social">
+                    <div class='col'>
+                        <a href="https://www.instagram.com/thecoinel" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <div id="reference">
-                        <button type="button" class="btn btn-outline" onclick="darkMode()">
-                            <i class="fas fa-moon"></i>
-                        </button>
-                        <button type="button" class="btn btn-outline" onclick="randomImage()">
-                            <i class="fas fa-random"></i>
-                        </button>
+                    <div class='col'>
+                        <a href="https://www.soundcloudcom/thecoinel" rel="noopener noreferrer" target="_blank"><i class="fab fa-soundcloud"></i></a>
                     </div>
+                    <div class='col'>
+                        <a href="https://www.linkedin.com/in/jasonmustard" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class='col'>
+                        <a href="https://www.github.com/jasonmustard" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>  
+                
+                <div id="colorMode">
+                    <button type="button" class="btn btn-outline" onclick="mailTo()">
+                        <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline" onclick="myResume()">
+                        <i class="fas fa-file"></i>
+                    </button>
+                </div>
+                <div id="reference">
+                    <button type="button" class="btn btn-outline" onclick="darkMode()">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline" onclick="randomImage()">
+                        <i class="fas fa-random"></i>
+                    </button>
                 </div>
             </div>
+        <!-- </div> -->
+
+
+            <!-- Old functionality I may still end up using so Im not going to delete it. -->
+            
             <!--Home and Work button toggle-->
-            <div class="row link">
+            <!-- <div class="row link">
                 <div class="col" id="home">
                     <button class="btn" type="button" data-toggle="collapse" data-target="#homeCollapse"
                         aria-expanded="false" aria-controls="homeCollapse">
@@ -71,9 +83,11 @@
                         <h2><i class="fas fa-building"></i></h2>
                     </button>
                 </div>
-            </div>
+            </div> -->
+
             <!-- This is where the links go -->
-            <div class="row">
+
+            <!-- <div class="row">
                 <div class="col link-2">
                     <div class="collapse" id="homeCollapse">
                         <ul>
@@ -102,8 +116,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
 
 
         <!-- Optional JavaScript -->
@@ -117,9 +130,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
-
-
+        <script type="text/javascript" src="script.js"></script>
         <script>random_bg_color();</script>
+
 </body>
 
 </html>
