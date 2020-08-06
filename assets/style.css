@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
   display: flex;
@@ -192,13 +192,21 @@ div > button > i {
         font-size: 3rem;
     }
     #wrapper {
-        background: url("https://source.unsplash.com/user/mustard81/820x1092");
+        background: url("https://source.unsplash.com/user/mustard81/1020x1092");
         height: 90vh;
     }
   }
+
+
+  @media only screen and (min-width: 1024px) {
+    #wrapper {
+        background: url("https://source.unsplash.com/user/mustard81/1024x768");
+    }
+
+
   @media only screen and (min-width: 1200px) {
     #wrapper {
-        background: url("https://source.unsplash.com/user/mustard81/1150x820");
+        background: url("https://source.unsplash.com/user/mustard81/1150x920");
     }
 }
 
